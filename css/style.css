@@ -147,14 +147,14 @@ h1{
     width: 340px;
   }
 }
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 350px) {
   #form_content {
-    width: 280px;
+    width: 320px;
   }
 }
-@media only screen and (max-width: 260px) {
+@media only screen and (max-width: 300px) {
   #form_content {
-    width: 200px;
+    width: 300px;
     height: 370px;
   }
 }
@@ -175,29 +175,28 @@ h1{
 }
 @media only screen and (max-width: 600px) {
   .form_title h1{
-    font-size: 25px;
+    font-size: 34px;
   }
 }
 @media only screen and (max-width: 400px) {
   .form_title h1{
-    font-size: 22px;
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .form_title h1{
+    font-size: 28px;
+    margin-left: 3%;
   }
 }
 @media only screen and (max-width: 300px) {
   .form_title h1{
-    font-size: 20px;
-    margin-left: 3%;
-  }
-}
-@media only screen and (max-width: 260px) {
-  #form_content {
-    font-size: 17px;
-    margin-left: 3%;
+    font-size: 24px;
   }
 }
 .form-group {
     width: 80%;
-    font-size: 14px;
+    font-size: 17px;
     margin: 10px 10%;
   }
 .form-group input,#massage{
@@ -205,15 +204,16 @@ h1{
     border: none;
     border-bottom: 1px solid black;
   }
-  @media only screen and (max-width: 300px) {
+  @media only screen and (max-width: 350px) {
     .form-group input,#massage{
       height: 44px;
+      font-size: 27px;
     }
   }
   @media only screen and (max-width: 260px) {
     .form-group input, #massage {
       height: 42px;
-      font-size: 12px;
+      font-size: 15px;
   }
   }
   .form-group input:focus{
@@ -230,7 +230,7 @@ h1{
   @media only screen and (max-width: 260px) {
     .form-group input,
     .form-group textarea  {
-      font-size: 12px;
+      font-size: 17px;
   }
   }
   button[type="submit"] {
@@ -256,23 +256,23 @@ h1{
   }
   @media only screen and (max-width: 400px) {
     button[type="submit"]{
-      height: 44px;
-      padding: 5px;
+      height: 48px;
+      padding: 9px;
+      font-size: 25px;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    button[type="submit"]{
+      height: 47px;
+      padding: 9px;
       font-size: 25px;
     }
   }
   @media only screen and (max-width: 300px) {
     button[type="submit"]{
-      height: 39px;
-      padding: 5px;
-      font-size: 22px;
-    }
-  }
-  @media only screen and (max-width: 260px) {
-    button[type="submit"]{
-      height: 36px;
+      height: 43px;
       padding: 7px;
-      font-size: 20px;
+      font-size: 25px;
     }
   }
   button[type="submit"]:hover {
@@ -303,24 +303,14 @@ h1{
   }
   #strength{
       margin: 0px 10%;
-      font-size: 13px;
+      font-size: 17px;
   }
 #blog_content{
   width: 65%;
   text-align: left;
   margin: auto;
 }
-@media only screen and (max-width: 400px) {
-  #blog_content{
-    width: 85%;
-  }
-}
-@media only screen and (max-width: 300px) {
-  #blog_content{
-    width: 85%;
-  }
-}
-@media only screen and (max-width: 260px) {
+@media only screen and (max-width: 500px) {
   #blog_content{
     width: 85%;
   }
@@ -336,16 +326,6 @@ h1{
     font-size: 2.0rem;
   }
 }
-@media only screen and (max-width: 400px) {
-  #blog_content h1{
-    font-size: 1.7rem;
-  }
-}
-@media only screen and (max-width: 300px) {
-  #blog_content h1{
-    font-size: 1.5rem;
-  }
-}
 i.fas.fa-key {
   font-size: 16px;
   padding: 5px;
@@ -356,17 +336,6 @@ i.fas.fa-key {
   font-family: 'Crimson Pro', serif;
   line-height: 1.6;
 }
-@media only screen and (max-width: 600px) {
-  #blog_content p,li{
-    font-size: 17px;
-  }
-}
-@media only screen and (max-width: 400px) {
-  #blog_content p,li{
-    font-size: 16px;
-  }
-}
-
 #footer{
   width: 100%;
   box-shadow: -1px 3px 7px black;
