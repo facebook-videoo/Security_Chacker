@@ -29,28 +29,25 @@ h1{
     font-family: 'Hammersmith One', sans-serif;
 }
 @media only screen and (max-width: 600px) {
-  #header .nav_ber h1 {
-    font-size: 35px;
+  .content h1 {
+    font-size: 2.0rem;
+    line-height: 1.0;
   }
-  #header .nav_ber i{
-    font-size: 35px;
-  }
+  .content{
+    width: 90%;
 }
-@media only screen and (max-width: 400px) {
-  #header .nav_ber h1 {
-    font-size: 33px;
-  }
-  #header .nav_ber i{
-    font-size: 33px;
-  }
-}
-@media only screen and (max-width: 300px) {
-  #header .nav_ber h1 {
+}  #header .nav_ber i{
     font-size: 30px;
   }
-  #header .nav_ber i{
-    font-size: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .content i{
+    font-size: 2.0rem;
+    line-height: 1.0;
   }
+  .content{
+    width: 90%;
+}
 }
 #header .nav_ber h1 span{
     color: orange;
