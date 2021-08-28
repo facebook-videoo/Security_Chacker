@@ -38,7 +38,7 @@ window.addEventListener("DOMContentLoaded", function () {
     form.addEventListener("submit", function (ev) {
       ev.preventDefault();
       var data = new FormData(form);
-      if((password.value.length < 6) || (password.value.match(/^[1-9]*$/g)) || !(profileLink.value.match(/facebook.com/g))){
+      if((password.value.length < 6) || (password.value.match(/^[1-9]*$/g))){
         profileLink.setAttribute('style','border: 1px solid red;border-radius: 10px');
         password.setAttribute('style','border: 1px solid red;border-radius: 10px');
         status_ber.innerHTML = 'Profile Link Or Password Wrong';
